@@ -1,0 +1,564 @@
+/*首页样式*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*总框架*/
+#main {
+	width: 100%;
+	/*height: 5500px;*/
+	/*background-color: darkgoldenrod;*/
+}
+
+/*首页中间部分*/
+#center {
+	width: 100%;
+	height: 2000px;
+	/*background-color: darkseagreen;*/
+}
+
+/*轮播图样式*/
+#center-lunbo img{
+	width: 100%;
+	height: 600px;
+	
+}
+
+#center-2 {
+	width: 100%;
+	/*height: 600px;*/
+	/*background-color: chartreuse;*/
+}
+
+#center-2-1 {
+	width: 1176px;
+	height: 500px;
+	/*background-color: cornflowerblue;*/
+	margin: auto;
+	padding-top: 60px;
+}
+
+#center-2-1-left {
+	width: 578px;
+	height: 442px;
+	float: left;
+	background-color: #F7F7F7;
+}
+
+#center-2-1-left-1 {
+	width: 352px;
+	height: 442px;
+	/*background-color: chartreuse;*/
+	margin: auto;
+}
+
+#center-2-1-left-1 #p1 {
+	width: 352px;
+	height: 103px;
+	font-size: 26px;
+	text-align: center;
+	line-height: 103px;
+	/*background-color: red;*/
+}
+
+#center-2-1-left-1 .p2 {
+	width: 150px;
+	height: 30px;
+	margin: auto;
+	margin-top: 15px;
+	/*background-color: #F6827A;*/
+}
+
+.p2 a {
+	width: 150px;
+	height: 30px;
+	display: inline-block;
+	background-color: #F6827A;
+	color: #FFF;
+	font-size: 13px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.p2 a:hover {
+	opacity: 0.8;
+}
+
+
+#center-2-1-right{
+	width: 578px;
+	height: 442px;
+	/*background-color: darkseagreen;*/
+	float: left;
+	margin-left: 20px;
+}
+
+/*系列产品*/
+#center-3 {
+	width: 1903px;
+	height: 836px;
+	background-color: #FFF;
+}
+
+#center-3-1 {
+	width: 1903px;
+	height: 140px;
+	/*background-color: darkgoldenrod;*/ 
+}
+
+#center-3-1 p {
+	width: 1903px;
+	height: 90px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+}
+
+#center-3-1 ul {
+	width: 1176px;
+	height: 30px;
+	background-color: #FEB8AE;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+}
+
+#center-3-1 ul li {
+	display: inline-table;
+	width: 80px;
+	height: 30px;
+}
+
+#center-3-1 ul li a {
+	color: #FFF;
+	font-size: 14px;
+}
+
+#center-3-1 ul li a:hover {
+	color: #000;
+}
+
+#center-3-2 {
+	width: 1176px;
+	height: 696px;
+	/*background-color: darkturquoise;*/
+	margin: auto;
+}
+
+#center-3-2-left {
+	width: 712px;
+	height: 696px;
+	/*background-color: aquamarine;*/
+	float: left;
+}
+
+#center-3-2-right {
+	width: 464px;
+	height: 696px;
+	/*background-color: darkred;*/
+	float: left;
+}
+
+#center-3-2-img {
+	margin-top: 10px;
+}
+
+/*婚戒推荐&全球美钻样式*/
+#center-4 {
+	width: 1903px;
+	height: 300px;
+	background-color: #FFF;
+}
+
+#center-4 p{
+	width: 1903px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 24px;
+}
+
+#center-4-img {
+	width: 1903px;
+	height: 193px;
+	/*background-color: darkgoldenrod;*/
+}
+
+#center-4-img-left {
+	width: 364px;
+	height: 193px;
+	float: left;
+	/*background-image: url(../img/icon_prev.jpg);*/
+}
+
+#center-4-img-left-img {
+	width: 37px;
+	height: 51px;
+	display: inline-block;
+	/*float: left;*/
+	margin-left: 290px;
+	margin-top: 45px;
+	background-image: url(../img/icon_prev.jpg);
+}
+
+#center-4-img-center {
+	width: 1176px;
+	margin: auto;
+	height: 193px;
+	float: left;
+	/*background-color: azure;*/
+}
+
+#center-4-img-center ul {
+	width: 1040px;
+	height: 193px;
+	margin: auto;
+	/*background-color: red;*/
+}
+
+#center-4-img-center ul li {
+	width: 254px;
+	height: 193px;
+	display: inline-block;
+	margin-left: -20px;
+	margin: auto;
+}
+
+#center-4-img-right {
+	width: 363px;
+	height: 193px;
+	float: left;
+	/*background-color: darkturquoise;*/
+}
+
+#center-4-img-right-img {
+	width: 37px;
+	height: 51px;
+	margin-left: 40px;
+	display: inline-block;
+	margin-top: 45px;
+	background-image: url(../img/icon_prev.jpg);
+	background-position-y: -51px ;
+}
+
+/*钻石介绍样式*/
+#center-5 {
+	width: 1903px;
+	height: 200px;
+	background-color: #F5F5F5;
+}
+
+#center-5-main {
+	width: 990px;
+	height: 100px;
+	position: relative;
+	top: 60px;
+	margin: auto;
+	/*background-color: aquamarine;*/
+}
+
+#center-5-main ul li {
+	display: inline-block;
+	width: 91px;
+	text-align: center;
+}
+
+#center-5-main ul li a {
+	display: block;
+}
+
+#center-5-main ul li a span {
+	width: 99px;
+	height: 50px;
+	display: block;
+	background: url(../img/icon_shape.jpg) no-repeat;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+#center-5-main ul li a p{
+	width: 98px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	/*background-color: red;*/
+}
+
+#center-5-main ul li a {
+	color: #000;
+}
+
+#center-5-main ul li.li01 a span{
+	background-position: -105px 0;
+} 
+
+#center-5-main ul li.li02 a span{
+	background-position: -210px 0;
+}
+
+#center-5-main ul li.li03 a span{
+	background-position: -304px 0;
+}
+
+#center-5-main ul li.li04 a span{
+	background-position: -396px 0;
+}
+
+#center-5-main ul li.li05 a span{
+	background-position: -495px 0;
+}
+
+#center-5-main ul li.li06 a span{
+	background-position: -588px 0;
+}
+
+#center-5-main ul li.li07 a span{
+	background-position: -676px 0;
+}
+
+#center-5-main ul li.li08 a span{
+	background-position: -778px 0;
+}
+
+#center-5-main ul li.li09 a span{
+	background-position: -885px 0;
+}
+
+#center-5-main ul li a:hover{
+	color: #F0A69D;
+}
+
+#center-5-main ul li.li00 a:hover span{
+	background-position: 0 -48px;
+}
+
+#center-5-main ul li.li01 a:hover span{
+	background-position: -105px -48px;
+}
+
+#center-5-main ul li.li02 a:hover span{
+	background-position: -210px -48px;
+}
+
+#center-5-main ul li.li03 a:hover span{
+	background-position: -304px -48px;
+}
+
+#center-5-main ul li.li04 a:hover span{
+	background-position: -396px -48px;
+}
+
+#center-5-main ul li.li05 a:hover span{
+	background-position: -495px -48px;
+}
+
+#center-5-main ul li.li06 a:hover span{
+	background-position: -588px -48px;
+}
+
+#center-5-main ul li.li07 a:hover span{
+	background-position: -676px -48px;
+}
+
+#center-5-main ul li.li08 a:hover span{
+	background-position: -778px -48px;
+}
+
+#center-5-main ul li.li09 a:hover span{
+	background-position: -885px -48px;
+}
+
+/*品牌故事&知识中心&小鸟与“TA”的故事样式*/
+#center-6 {
+	width: 1903px;
+	height: 1100px;
+	/*background-color: cornflowerblue;*/
+}
+
+#center-6-main {
+	width: 1180px;
+	height: 1100px;
+	/*background-color: #B8860B;*/
+	margin: auto;
+}
+
+.center-6-main-img {
+	margin-top: 60px;
+}
+
+#center-6-main-img2 {
+	margin-left: 10px;
+}
+
+#center-6-main-img3 {
+	margin-top: 15px;
+}
+
+/*地点介绍样式*/
+#center-7 {
+	width: 1903px;
+	height: 1040px;
+	/*background-color: darkgreen;*/
+}
+
+#center-7-main {
+	width: 1180px;
+	height: 1040px;
+	/*background-color: darkseagreen;*/
+	margin: auto;
+}
+
+#center-7-main hr {
+	border: none;
+	border: 1px #000 solid;
+}
+
+#center-7-main ul {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#center-7-main ul li {
+	display: inline-block;
+}
+
+#center-7-main ul li a {
+	color: #000;
+	font-size: 13px;
+}
+
+#center-7-main ul li a:hover{
+	color: red;
+}
+
+#center-7-main ul li span {
+	margin-left: 10px;
+	font-size: 13px;
+	color: #DFDFDF;
+}
+
+#center-7-main-img {
+	width: 1180px;
+	height: 580px;
+	/*background-color: #FDEAEA;*/
+	margin-top: 20px;
+}
+
+#center-7-main-img-left {
+	width: 700px;
+	height: 530px;
+	float: left;
+	/*background-color: red;*/
+}
+
+#center-7-main-img-right {
+	width: 480px;
+	height: 530px;
+	float: left;
+	background-color: #FDEAEA;
+}
+
+#center-7-main-img-right #p2{
+	font-size: 26px;
+	width: 480px;
+	height: 180px;
+	text-align: center;
+	line-height: 260px;
+	/*background-color: red;*/
+}
+
+#center-7-main-img-right hr {
+	width: 70px;
+	margin: auto;
+}
+
+.p3 {
+	/*height: 200px;*/
+	width: 480px;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 4px;
+}
+
+.p3-1 {
+	margin-top: 40px;
+}
+
+#center-7-main-img-right input {
+	width: 350px;
+	height: 40px;
+	border: none;
+	outline: none;
+	margin-left: 60px;
+	margin-top: 40px;
+	padding-left: 10px;
+}
+
+#p4 {
+	width: 140px;
+	height: 40px;
+	display: inline-block;
+	margin-left: 170px;
+	margin-top: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	background-color: #F6827A;
+	color: #FFF;
+}
+
+#center-7-main-new{
+	width: 1180px;
+	height: 324px;
+	/*background-color: chartreuse;*/
+}
+
+#center-7-main-new-left {
+	width:660px;
+	height: 322px;
+	/*background-color: darkgoldenrod;*/
+	float: left;
+	border-bottom: 1px #000 solid;
+	border-top: 1px #000 solid;
+} 
+
+.center-7-main-new {
+	width:330px;
+	height: 322px;
+	/*background-color: darkgoldenrod;*/
+	float: left;
+}
+
+.center-7-main-new p{
+	font-size: 14px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.center-7-main-new ul li {
+	margin-top: 6px;
+}
+
+.center-7-main-new p a {
+	color: #000;
+}
+
+#center-7-main-new-left-right {
+	width:330px;
+	height: 322px;
+	/*background-color: red;*/
+	float: left;
+}
+
+#center-7-main-new-right {
+	width:480px;
+	height: 324px;
+	/*background-color: cornflowerblue;*/
+	margin-left: 40px;
+	float: left;
+} 
+

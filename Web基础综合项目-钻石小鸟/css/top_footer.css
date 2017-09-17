@@ -1,0 +1,599 @@
+/*顶部和底部样式*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration:none;
+}
+
+ul {
+	list-style: none;
+}
+
+#top {
+	width: 100%;
+	height: 160px;
+	background-color: #FBF2F1;
+}
+
+#top #top-leader {
+	width: 100%;
+	height: 30px;
+	background-color: #F8E3DF;
+}
+
+#top-leader-left {
+	width: 100%;
+	height: 30px;
+	/*background-color: aquamarine;*/
+	float: left;
+}
+
+#top-leader-right {
+	width: 600px;
+	height: 30px;
+	/*background-color: cornflowerblue;*/
+	float: left;
+}
+
+#top-leader-left p {
+	padding-left: 100px;
+	padding-top: 6px;
+	font-size: 14px;
+}
+
+#top-leader-left p a {
+	color: #000;
+	margin-left: 20px;
+}
+
+#top-leader-left p a:hover {
+	color:red;
+}
+
+/*购物车导航*/
+#top-leader-right>ul>li {
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 15px;
+	text-align: center;
+	/*padding-top: 4px;*/
+	/*background-color: red;*/
+	line-height: 30px;
+}
+
+#top-leader-right>ul>li a {
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	font-size: 14px;
+	color: #000;
+}
+
+#top-leader-right>ul>li a:hover {
+	color: red;
+}
+
+.img-1 {
+	position: relative;
+	top:2px;
+	right: 5px;
+}
+
+.img-2 {
+	position: relative;
+	top:-3px;
+	left: 5px;
+}
+
+.top-li01 {
+	position: relative;
+	top: -1px;
+}
+
+.top-li01 a:hover{
+	background-color: #FFF;
+	color: #000;
+}
+
+/*购物车导航的二级菜单*/
+/*购物车*/
+#top-leader-right-01 {
+	width: 183px;
+	height: 80px;
+	background-color: #FFF;
+	position: absolute;
+	z-index: 10;
+	top:30px;
+	display: none;
+}
+
+.top-li01:hover #top-leader-right-01 {
+	display: block;
+}
+
+.top-li01:hover .img-2 {
+	transform: rotate(180deg);
+}
+
+#top-leader-right-01 #top-p01 {
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+
+#top-p02 {
+	font-size: 14px;
+	margin-left: 80px;
+}
+
+#top-p02 span {
+	color: red;
+	margin: 5px;
+}
+
+/*我的鸟巢*/
+#top-leader-right-02 {
+	width: 80px;
+	height: 128px;
+	background-color: #FFF;
+	position: absolute;
+	z-index: 10;
+	display: none;
+}
+
+.top-li02:hover #top-leader-right-02 {
+	display: block;
+}
+
+
+/*顶部中间logo样式*/
+#top-logo {
+	width: 1903px;
+	height: 100px;
+	/*background-color: darkorange;*/
+}
+
+#top-logo-left {
+	width: 1480px;
+	height: 100px;
+	/*background-color: cornflowerblue;*/
+	float: left;
+}
+
+#top-logo-left img {
+	margin-left: 144px;
+	margin-top: 28px;
+}
+
+#top-logo-right {
+	width: 400px;
+	height: 100px;
+	/*background-color: darkseagreen;*/
+	float: left;
+}
+
+#top-logo-right p {
+	margin-top: 14px;
+	/*display: inline-block;*/
+}
+
+#top-logo-right p {
+	/*border: 1px #D8D8D8 solid;*/
+}
+
+#input-1 {
+	width: 150px;
+	height: 30px;
+	outline: none;
+	border: none;
+	border: 1px #D8D8D8 solid;
+	border-right: none;
+	padding-left: 10px;
+}
+
+#input-2 {
+	position: relative;
+	top:12px;
+	border: 1px #D8D8D8 solid;
+	border-left: none;
+	outline: none;
+}
+
+#top-logo-right-p {
+	width: 70px;
+	height: 26px;
+	border: 1px #D8D8D8 solid;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	position: relative;
+	top:-5px;
+	left: 65px;
+}
+
+#top-logo-right p a{
+	width: 70px;
+	height: 26px;
+	color: #000;
+	display: inline-block;
+}
+
+#top-logo-right p a:hover {
+	background-color: #F8E3DF;
+}
+
+/*首部导航条样式*/
+#top-nav {
+	width: 1903px;
+	height: 30px;
+	position: relative;
+	background-color: #909090;
+}
+
+#top-nav>ul {
+	margin-left: 20px;
+}
+
+#top-nav>ul>li {
+	width: 120px;
+	height: 30px;
+	display: inline-block;
+	margin-left: -7px;
+	/*text-align: center;*/
+	line-height: 30px;
+	/*background-color: chartreuse;*/
+}
+
+#top-nav>ul>li>a {
+	width: 120px;
+	height: 30px;
+	display: inline-block;
+	color: #FFF;
+	font-size: 14px;
+	position: absolute;
+	text-align: center;
+	/*top: -1px;*/
+}
+
+.a-1{
+	margin-left: 35px;
+}
+
+.a-2 {
+	margin-left: 45px;
+}
+
+#top-nav>ul>li>a:hover {
+	background-color: #FDB2A4;
+}
+
+.li-8 {
+	position: relative;
+	left: 630px;
+}
+
+/*制作导航条的下拉菜单*/
+.top-nav-00 {
+	display: none;
+/*	background: none;*/
+	width: 1911px;
+	height: 300px;
+	background-color: #FFF;
+	position: absolute;
+	z-index: 10;
+}
+
+#top-nav ul li:hover .top-nav-00{
+	display: block;
+}
+
+#top-nav-01 {
+	position: absolute;
+	top: 30px;
+	left: -8px;	
+}
+
+#top-nav-left {
+	width: 500px;
+	height: 300px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.top-nav-00 a {
+	color: #000;
+}
+
+.top-nav-00 a:hover {
+	color: #F8E3DF;
+}
+
+#p-5{
+	margin-top: 20px;
+	margin-left: 110px;
+	font-size: 20px;
+}
+
+#p-6 {
+	margin-top: -5px;
+	margin-left: 110px;
+	font-size: 13px;
+}
+
+#ul-4 {
+	float: left;
+}
+
+#top-nav-left ul {
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+#top-nav-left ul li {
+	margin-top: -5px;
+	font-size: 13px;
+}
+
+#top-nav-center {
+	width: 300px;
+	height: 300px;
+	float: left;
+	/*background-color: cornflowerblue;*/
+}
+
+#top-nav-center-1 {
+	width: 300px;
+	height: 230px;
+	/*background-color: darkgoldenrod;*/
+	margin-top: 30px;
+	border-left: 1px #E5E5E5 solid;
+}
+
+#ul-5 {
+	margin-left: 50px;
+	margin-top: 54px;
+}
+
+#ul-5 li {
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+#top-nav-right {
+	width: 700px;
+	height: 300px;
+	float: left;
+	/*background-color: darkorange;*/
+}
+
+#top-nav-right-img {
+	width: 611px;
+	height: 262px;
+	background-color: red;
+	margin-top: 20px;
+}
+
+/*底部样式*/
+#bottom {
+	width: 1903px;
+	height: 520px;
+	background-color: #FDF2EC;
+}
+
+#bottom-main {
+	width: 1180px;
+	height: 520px;
+	/*background-color: cornflowerblue;*/
+	margin: auto;
+}
+
+#bottom-main-top {
+	width: 1180px;
+	height: 100px;
+	/*background-color: darkgoldenrod;*/
+}
+
+/*底部中间部分样式*/
+#bottom-main-center {
+	width: 1180px;
+	height: 160px;
+	/*background-color: darkorange;*/
+}
+
+#bottom-main-center-logo {
+	width: 145px;
+	height: 160px;
+	/*background-color: red;*/
+	float: left;
+}
+
+#bottom-main-center-logo img {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#bottom-main-center-ul {
+	width: 821px;
+	height: 160px;
+	/*background-color: aquamarine;*/
+	float: left;
+}
+
+#ul-1 li{
+	width: 85px;
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 50px;
+	/*background-color: red;*/
+	margin-top: 4px;
+}
+
+
+
+#ul-1 li a{
+	color: #999999;
+}
+
+#ul-1 li a:hover {
+	color: #FF8A81;
+}
+
+.ul-2 {
+	position: relative;
+	top:-20px;
+	/*margin-top: -10px;*/
+}
+
+.li-1 {
+	margin-bottom: 10px;
+}
+
+#bottom-main-center-ewm {
+	width: 214px;
+	height: 160px;
+	/*background-color: darkgoldenrod;*/
+	float: left;
+}
+
+#bottom-main-tel {
+	width: 488px;
+	height: 60px;
+	background:url(../img/fot_consult.jpg);
+	margin: auto;
+}
+
+/*底部最底边样式*/
+#bottom-footer {
+	width: 1180px;
+	height: 200px;
+	/*background-color: darkorange;*/
+}
+
+#bottom-footer ul {
+	text-align: center;
+}
+
+#ul-2 {
+	padding-top: 15px;
+}
+
+#bottom-footer ul li {
+	display: inline-block;
+	font-size: 13px;
+	color: #999999;
+}
+
+#bottom-footer ul li a {
+	color: #999;
+}
+
+#bottom-footer ul li a:hover {
+	color: #FF8A81;
+}
+
+#bottom-footer p{
+	text-align: center;
+	font-size: 13px;
+	color: #999;
+	margin-top: 10px;
+}
+
+#ul-3 {
+	margin-top: 20px;
+}
+
+#ul-3 li a img {
+	width: 110px;
+	height: 35px;
+}
+
+/******************右部咨询栏样式*********************/
+#right-Ad{
+	width: 88px;
+	height: 436px;
+	position: fixed;
+	right: 0px;
+	top: 240px;
+	float: right;
+	/*background-color: aquamarine;*/
+}
+
+.li-2 {
+	float: right;
+	margin-top: -2px;
+}
+
+.li-2 a {
+	width: 67px;
+	height: 67px;
+	display: inline-block;
+	/*background-color: red;*/
+}
+
+.li-2 a:hover {
+	opacity: 0.8;
+}
+
+.li-2-1 {
+	margin-top: -4px;
+}
+
+#right-Ad-img {
+	width: 206px;
+	height: 135px;
+	/*background-color: red;*/
+	position:absolute;
+	top: 298px;
+	right: 68px;
+}
+
+#right-Ad-img {
+	display: none;
+}
+
+.li-2-2 {
+	width:67px;
+	height: 67px;
+	background-color: red;
+}
+
+.li-2-2 a img {
+	position: relative;
+	top: 20px;
+}
+
+.li-2-2:hover #right-Ad-img {
+	display: block;
+}
+
+.li-2-2 a img{
+	position: relative;
+	top: 0px;
+}
+
+/*******************回到顶部**********************/
+#go_top {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 15px;
+	bottom: 140px;
+	display: none;
+}
+
+#go_top a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url(../img/s_totop.jpg);
+	
+}
+
+#go_top a:hover{
+	background-position: -40px 0;
+}

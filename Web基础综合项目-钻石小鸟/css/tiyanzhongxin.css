@@ -1,0 +1,53 @@
+#main{
+	width: 1903px;
+}
+#top{
+	height: 160px;
+	
+}
+#center{
+	margin: 0 auto;
+	width: 1180px;
+	
+}
+#head{
+	height: 50px;
+	
+	
+}
+#head p{
+	line-height: 50px;
+}
+#head a:hover{
+	color: red;
+}
+#div01{
+	
+}
+#div01 img{
+	width: 100%;
+}
+#div06_left{
+	width: 435px;
+	float: left;
+}
+#div06_right{
+	float: right;
+}
+#div07{
+	clear: both;
+}
+#bottom{
+	
+	height: 520px;
+	
+}
+#fix{
+	top: 150px;
+	right: 0px;
+	position: fixed;
+}
+#fix ul{
+	list-style: none;
+}
+
